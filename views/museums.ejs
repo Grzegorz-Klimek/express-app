@@ -1,0 +1,12 @@
+<h1>Muzea</h1>
+
+<div class="container">
+    <div class="row">
+        <% museums.forEach(function(museum){ %>
+        <div class="col-xs-3">
+            <h2><%= museum.name %></h2>
+            <img src="<%= museum.image %>">
+        </div>
+    <% }); %>
+    </div>
+</div>
