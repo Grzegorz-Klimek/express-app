@@ -1,0 +1,11 @@
+<% include header %>
+
+<h1>Dodaj nowe muzeum</h1>
+
+<form action="/museums" method="POST">
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="image" placeholder="image url">
+    <button>Dodaj!</button>
+</form>
+
+<% include footer %>

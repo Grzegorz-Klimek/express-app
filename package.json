@@ -14,9 +14,10 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Grzegorz-Klimek/express-app/issues"
-  }, 
+  },
   "homepage": "https://github.com/Grzegorz-Klimek/express-app#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "bootstrap": "^4.1.3",
     "ejs": "^2.6.1",
     "express": "^4.12.2"
